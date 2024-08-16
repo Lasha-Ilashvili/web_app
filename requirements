@@ -1,0 +1,28 @@
+Functional Requirements:
+
+Registration Form:
+    Input fields for First Name, Last Name, Email (validated with regex), and Password (at least 6 characters, with show/hide option).
+
+Validation:
+    Validate email format and password length.
+
+Submission:
+    "Enroll" button submits the form. On successful submission, hide the form and show "You are enrolled!" message with a "Back" button to return to the form.
+
+
+Non-Functional Requirements
+
+Performance:
+    Load within 2 seconds; responsive across devices.
+
+Usability:
+    User-friendly interface; accessible (supports screen readers and keyboard navigation).
+
+Security:
+    Validate and sanitize inputs; ensure data privacy.
+
+Maintainability:
+    Well-organized, readable code; modular with clear separation of concerns.
+
+Design: 
+    Visually appealing layout; centered form with a suitable background.
